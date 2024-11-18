@@ -2,8 +2,8 @@ export default function Home() {
   return (
     <main className="h-screen bg-cyellow flex items-center justify-center">
       <div className="relative">
-        <div className="card w-[24rem] h-[32.625rem] bg-black rounded-xl" />
-        <div className="card w-[24rem] h-[32.625rem] bg-white border border-black rounded-xl
+        <div className="card max-w-[24rem] max-h-[32.625rem] w-screen h-screen bg-black rounded-xl" />
+        <div className="card max-w-[24rem] max-h-[32.625rem] w-screen h-screen bg-white border border-black rounded-xl
          absolute -top-2 -left-2 p-4 pl-5 items-center">
           <div className="flex flex-col items-start w-full">
             <img src="/images/illustration-article.svg" alt="Illustration" className="w-auto h-auto rounded-2xl p-1 mb-5" />
